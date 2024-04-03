@@ -1,0 +1,49 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_stripe_identity (0.0.1):
+    - Flutter
+    - StripeIdentity
+  - integration_test (0.0.1):
+    - Flutter
+  - StripeCameraCore (22.8.4):
+    - StripeCore (= 22.8.4)
+  - StripeCore (22.8.4)
+  - StripeIdentity (22.8.4):
+    - StripeCameraCore (= 22.8.4)
+    - StripeCore (= 22.8.4)
+    - StripeUICore (= 22.8.4)
+  - StripeUICore (22.8.4):
+    - StripeCore (= 22.8.4)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_stripe_identity (from `.symlinks/plugins/flutter_stripe_identity/ios`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+
+SPEC REPOS:
+  trunk:
+    - StripeCameraCore
+    - StripeCore
+    - StripeIdentity
+    - StripeUICore
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_stripe_identity:
+    :path: ".symlinks/plugins/flutter_stripe_identity/ios"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_stripe_identity: 58b2c247e70a8bda9950a6a4db778b7c40197fa4
+  integration_test: 13825b8a9334a850581300559b8839134b124670
+  StripeCameraCore: 6010f1a2199a8c93e9cce1e2d8df3d85dd15b0e6
+  StripeCore: 193f27552fb98108ebfe0df11651fe5f38948305
+  StripeIdentity: 8995391ae266de1ade9b0b1a49a80ccc7d306ea4
+  StripeUICore: 6a5bbea0164d63bd91000f001903e7901859e1a4
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2
