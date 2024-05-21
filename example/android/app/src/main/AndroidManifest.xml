@@ -29,6 +29,9 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+        <activity android:name="com.stripe.android.identity.IdentityActivity"
+            android:theme="@style/MaterialTheme" />
     </application>
     <!-- Required to query activities that can process text, see:
          https://developer.android.com/training/package-visibility?hl=en and

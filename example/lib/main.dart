@@ -17,6 +17,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   String _platformVersion = 'Unknown';
+  String _verificationStatus = 'Unknown';
   final _flutterStripeIdentityPlugin = FlutterStripeIdentity();
 
   @override
@@ -66,10 +67,12 @@ class _MyAppState extends State<MyApp> {
                             'vs_1P11PsLU2cdGz51KXfNPcaOo',
                             'ek_test_YWNjdF8xT0xDSmZMVTJjZEd6NTFLLDV6NUswS0h3b1lZeFhEUFZGZHFZczBjMU5DeVBialA_00IInhDYe4');
                     setState(() {
-                      _platformVersion = result ?? '';
+                      _verificationStatus = result ?? '';
                     });
                   },
-                  child: const Text('stripe identity verification'))
+                  child: const Text('stripe identity verification')
+              ),
+              Text('Verification status: $_verificationStatus\n')
             ],
           ),
         ),
