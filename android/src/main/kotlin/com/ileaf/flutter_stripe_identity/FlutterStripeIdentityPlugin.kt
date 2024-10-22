@@ -51,11 +51,11 @@ class FlutterStripeIdentityPlugin : FlutterPlugin, MethodCallHandler, ActivityAw
     }
 
     override fun onDetachedFromActivity() {
-        TODO("Not yet implemented")
+        //TODO("Not yet implemented")
     }
 
     override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {
-        TODO("Not yet implemented")
+        //TODO("Not yet implemented")
     }
 
     override fun onAttachedToActivity(binding: ActivityPluginBinding) {
@@ -64,7 +64,7 @@ class FlutterStripeIdentityPlugin : FlutterPlugin, MethodCallHandler, ActivityAw
     }
 
     override fun onDetachedFromActivityForConfigChanges() {
-        TODO("Not yet implemented")
+        //TODO("Not yet implemented")
     }
 
     private fun configureIdentitySheet(activity: ComponentActivity) {
@@ -72,7 +72,7 @@ class FlutterStripeIdentityPlugin : FlutterPlugin, MethodCallHandler, ActivityAw
             IdentityVerificationSheet.create(
                 activity, IdentityVerificationSheet.Configuration(
                     // Pass your square brand logo by creating it from local resource or
-                    brandLogo = Uri.parse("https://loremflickr.com/cache/resized/65535_52750642974_d92f69439c_q_120_120_nofilter.jpg")
+                    brandLogo = Uri.parse("https://sellbyowner-qa-file-upload.s3.us-east-1.amazonaws.com/assets/172164689771706210901275968836_sellbyowner-logo.png")
                 )
             ) { verificationFlowResult ->
                 when (verificationFlowResult) {
